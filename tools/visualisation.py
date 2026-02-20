@@ -13,6 +13,7 @@ block_width = 6
 plot_color = "forestgreen"
 darker_color = "green"
 hist_bins = 30
+hist_range = (0, 5)
 
 
 # Classes and Enums
@@ -73,6 +74,7 @@ def visualize_distribution(
                         color=plot_color,
                         density=True,
                         alpha=0.5,
+                        range=None if not hist_range else hist_range
                     )
                 case DiagramTypes.Boxplot:
                     axis.boxplot(
@@ -164,3 +166,10 @@ def set_histbins(bins: int) -> None:
         hist_bins = bins
     else:
         raise ValueError("Bins count must be integer")
+    
+def set_range(range: tuple) -> None:
+    global hist_range
+    if isinstance(range, tuple):
+        hist_range = range
+    else:
+        raise ValueError("Range count must be tuple")

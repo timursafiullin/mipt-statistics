@@ -3,3 +3,5 @@
 #### Навигация по задачам:
 * [Т1](./homeworks/T1.pdf)
 * [Т2](./homeworks/T2/T2.ipynb)
+* [T3](./homeworks/T3.pdf)
+* [T4](./homeworks/T4.pdf)

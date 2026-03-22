@@ -10,3 +10,5 @@
 * [Т2](./homeworks/T2/T2.ipynb)
 * [T3](./homeworks/T3.pdf)
 * [T4](./homeworks/T4.pdf)
+* [T5](./homeworks/T5/T5.pdf)
+* [T6](./homeworks/T6/T6.pdf)
